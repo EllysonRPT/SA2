@@ -14,7 +14,7 @@ function trocar() {
     }
 
     // Define os tempos de troca com base na imagem atual
-    let tempoTroca = 4000; // Tempo padrão (vermelho para verde) demora 5 segundos
+    let tempoTroca = 2500; // Tempo padrão (vermelho para verde) demora 5 segundos
     if (i === 2) { // se índice 2 (Semáforo cor vermelha) o tempo muda para 1 segundo
         tempoTroca = 1000; // o tempo de troca do amarelo para verde é de 1 segundo
     }
@@ -35,7 +35,7 @@ function botao() {
         minhaImagem.src = imagens[i];
         // Reinicia o ciclo de troca de imagens
         setTimeout(trocar, 0);
-    }, 4000); // 4000 milissegundos (10 segundos)
+    }, 2500); // 4000 milissegundos (10 segundos)
     clearTimeout(timeoutId);
 }
 
