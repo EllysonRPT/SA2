@@ -41,26 +41,5 @@ function botao() {
 
 
 
-
-
-
-
 // Inicia a função, o tempo de 0 segundos significa que a função irá rodar imediatamente sem atrasos
 setTimeout(trocar, 0);
-
-// function botao() {
-//     const minhaImagem = document.getElementById('figura');
-    
-//     // Define a imagem como vermelha imediatamente
-//     minhaImagem.src = "img/SemaforoVermelhoSemFundo.png";
-    
-//     // Cancela o timeout anterior, se houver
-//     clearTimeout(timeoutId);
-    
-//     // Define um novo timeout para restaurar a imagem após 10 segundos
-//     setTimeout(function() {
-//         minhaImagem.src = imagens[i];
-//         // Reinicia o ciclo de troca de imagens
-//         setTimeout(trocar, 0);
-//     }, 6000); // 10000 milissegundos (10 segundos)
-// }
