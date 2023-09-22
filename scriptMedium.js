@@ -3,8 +3,10 @@ const imagens = ["img/SemaforoVerdeSemFundo.png", "img/SemaforoAmareloSemFundo.p
 let i = 0;
 let timeoutId = null; // Variável para armazenar o ID do timeout
 
+//função atomática
 function trocar() {
     const minhaImagem = document.getElementById('figura');
+    //troca a imagem(caminho src"") relacionada ao indice
     minhaImagem.src = imagens[i];
 
     i++; // Incrementa i em 1
@@ -24,7 +26,7 @@ function trocar() {
 }
 
 
-
+//função parada
 function botao() {
     //chama a referencia do ID
     const minhaImagem = document.getElementById('figura');
